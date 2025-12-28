@@ -20,6 +20,7 @@ Navigate to the backend folder and install the necessary dependencies:
 ```bash
 cd backend
 npm install
+```
 Initialize the Database: You must create the sandbox data before running the server:
 ```bash
 node seed.js
