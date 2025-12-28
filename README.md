@@ -21,32 +21,28 @@ Navigate to the backend folder and install the necessary dependencies:
 cd backend
 npm install
 Initialize the Database: You must create the sandbox data before running the server:
-
-Bash
-
+```bash
 node seed.js
+
 Start the Server:
-
-Bash
-
+```bash
 node server.js
+
 The backend will run on http://localhost:5000.
 
 2. Frontend Setup
 Open a new terminal, navigate to the frontend folder, and install the dependencies:
 
-Bash
-
+```bash
 cd frontend
 npm install
 Start the Application:
 
-Bash
-
+```bash
 npm start
 The application should open automatically at http://localhost:3000.
 
-📝 Usage Instructions
+* **Usage Instructions**
 Once the app loads, you will see a default query: SELECT * FROM employees;.
 
 Click the "Run Query" button.
