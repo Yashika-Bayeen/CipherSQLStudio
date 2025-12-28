@@ -14,7 +14,7 @@ This is a prototype for a SQL learning interface. It focuses on the core functio
 **Communication:** Axios (REST API)
 
 ## Installation and Setup
-1. Backend Setup
+### 1. Backend Setup
 Navigate to the backend folder and install the necessary dependencies:
 
 ```bash
@@ -24,23 +24,24 @@ npm install
 Initialize the Database: You must create the sandbox data before running the server:
 ```bash
 node seed.js
-
-Start the Server:
+```
+**Start the Server:**
 ```bash
 node server.js
-
+```
 The backend will run on http://localhost:5000.
 
-2. Frontend Setup
+### 2. Frontend Setup
 Open a new terminal, navigate to the frontend folder, and install the dependencies:
 
 ```bash
 cd frontend
 npm install
+```
 Start the Application:
-
 ```bash
 npm start
+```
 The application should open automatically at http://localhost:3000.
 
 * **Usage Instructions**
